@@ -1,0 +1,80 @@
+  #Feedback-section{
+    border: 2px solid black;
+
+  }
+  .font-change{
+    font-family: cursive;
+  }
+
+  /* SASUKE NERF SECTION */
+
+  #sasuke-nerf{
+    background-color: #F8E9A1;
+  }
+  #sasuke-nerf-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #9b45b2;
+    text-align: center;
+    margin-bottom:50px ;
+    text-transform: uppercase;
+    font: size 200px;
+  }
+  #sasuke-nerf-image{
+    height: 500px;
+  }
+  #sasuke-nerf-paragraph{
+    text-align: center;
+  }
+  #the-lost-arm-section{
+    background-color: #D79922;
+    margin-top: 130px;
+    border: 2px solid black;
+  }
+  .eye-section{
+    background-color: #F88379;
+  }
+  #sasuke-eyes-image{
+    height: 250px;
+    margin-top: 100px;
+  }
+  
+/* IS BORUTO A COMPLETE BS SECTION  */
+
+  #boruto-section{
+    text-align: center;
+    background-color: #659DBD;
+    height: 92vh;
+  }
+  #boruto-image{
+    border: 3px solid black;
+  }
+  
+  .Taijustsu-section{
+    background-color: #EAE7DC;
+  }
+  #about-is-boruto-a-complete-BS-part{
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  #Naruto-vs-isshiki-image{
+    margin-top: 25%;
+  }
+
+  /* NARUTO BLOG INTRODUCTION PART */
+  #naruto-image-section{
+    background-color: #EDF5E1;
+    text-align: center;
+    height: 91.5vh;
+    width: auto;
+    border: 3px solid black;
+  }
+  .naruto-cover-image{
+    margin-top: 2.5rem;
+  }
+  .naruto-about-para{
+    font-family: cursive;
+    font-size: 20px;
+
+  }

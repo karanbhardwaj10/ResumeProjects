@@ -1,0 +1,389 @@
+body{
+	margin: 0px;
+}
+#header-image{
+	height: 80vh;
+	background-image:url(WT.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+	background-attachment: fixed;
+}
+.header-links{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-align: center;
+}
+.header-links li{
+	text-align: center;
+	display: inline;
+	padding: 0px;
+	margin: 0px 18px 18px 0px;
+
+}
+.header-links li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: x-large;
+	font-weight: bolder;
+	transition: color  0.5s;
+}
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 4s;
+}
+.nav-menu li a:hover{
+	color: red;
+	border-bottom: 1px solid white;
+}
+#name{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 150px;
+	color: whitesmoke;
+}
+.social-icons{
+	text-align: center;
+}
+.social-icons li{	
+	display: inline;
+	padding: 0px;
+	margin: 0px 18px 18px 0px;
+}
+
+.social-icons li a i{
+	color: white;
+	padding: 15px;
+	margin-right: 5px;
+	margin-top: 10px;
+	font-size: 35px;
+	border-radius: 50%;
+	transition: color 0.5s;
+}
+.social-icons li a i:hover{
+	color: red;
+box-shadow: 0px 0px 6px 4px antiquewhite;	
+}
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#my-image{
+	height: 18rem;
+	margin: auto;
+	width: 18rem;
+	margin-top: 12vh;
+	margin-left: 40vw;
+}
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 6px 4px chocolate;
+}
+section{
+	width: 100%;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#about-para {
+    /*padding: 10px;*/
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+/*SKILLS SECTION */
+#skills{
+	background-color: whitesmoke;
+}
+
+.section-heading{
+	width: auto;  
+	padding: 20px 10px 10px;
+	font-weight: 400;
+
+}
+.section-heading span{
+	color: blue;
+	font-size: 40px;
+	display: inline-block;
+	padding-top:10px ;
+	margin-right: 0.5rem;
+}
+.skills-display{
+	width: 75%;
+	height: 230px;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-around;
+
+}
+.skill-progress{
+	margin-left: 4px;
+	width: 7rem;
+	height: 18px;
+	margin-top: 4px;
+	background-color: whitesmoke;
+	border-radius: 0.8rem;
+	border: 2px solid black;
+}
+.skill-progress-CSS{
+	width: 7rem;
+	height: 18px;
+	margin-top: 4px;
+	background-color: whitesmoke;
+	border-radius: 0.8rem;
+	border: 2px solid black;
+}
+.skill-progress-JAVA{
+	width: 7rem;
+	height: 18px;
+	margin-top: 4px;
+	background-color: whitesmoke;
+	border-radius: 0.8rem;
+	border: 2px solid black;
+}
+.skill-progress-DSA{
+	width: 7rem;
+	height: 18px;
+	margin-top: 4px;
+	background-color: whitesmoke;
+	border-radius: 0.8rem;
+	border: 2px solid black;
+
+}
+.skill-progress-JS{
+	width: 7rem;
+	height: 18px;
+	margin-top: 4px;
+	background-color: whitesmoke;
+	border-radius: 0.8rem;
+	border: 2px solid black;
+
+}
+/*percentage class*/
+
+.eighty-five-percent{
+	width: 85%;
+	height: 18px;
+
+}
+.seventy-percent{
+	width: 75%;
+	height: 18px;
+	/*position: relative;
+	left: 150%;*/
+}
+.fifty-percent{
+	width: 50%;
+	height: 18px;
+}
+.forty-percent{
+	width: 40%;
+	height: 18px;
+}
+.skill-name span{
+	color: white;
+	font-size: 18px;
+}
+.mb-blue{
+	background-color: blue;
+	border-radius:7px 1px 1px 7px;
+}
+.mb-orange{
+	background-color: orange;
+	border-radius: 9px 0 1px 7px;
+}
+.mb-burlywood{
+	background-color: burlywood;
+	border-radius: 9px 0 1px 7px;
+}
+.mb-blanchedalmond{
+background-color: brown;
+border-radius: 9px 0 1px 7px;
+
+}
+.mb-pink{
+background-color: #FF7777;
+border-radius: 9px 0 1px 7px;
+
+}
+.sp{
+	    margin: 1rem 4rem;
+}
+/*EDUCATION SECTION*/
+#Education-heading{
+font-size: 50px;
+text-align: center;
+color: dodgerblue;
+}
+
+#Education{
+	margin: 70px 0px 5px 75px;
+	border: 2px solid black;
+	border-radius: 5%;
+	width: 90%;
+	position: relative;
+}
+#time-line-divider{
+	position: absolute;
+	height: 75%;
+	width: 0;
+	border: 3px dashed black;
+	top: 10%;
+}
+#scroll-plane{
+	size: 2.5rem;
+	top: 10%;
+position: sticky;
+transform: rotate(90deg);
+}
+.timeline-box{
+	position: relative;
+	left: -22%;
+	width: 40%;
+	margin: 5px;
+	height: 20%;
+	border: 2px solid black;
+
+}
+.timeline-box:nth-child(2n+1){
+	left: 22%;
+	top: 5%;
+}
+.timeline-box:nth-child(2n+1)::before{
+	content: '';
+	border-radius: 50%;
+	position: absolute;
+	top: 30%;
+	left: -6.0%;
+	width: 0.8rem;
+	height: 0.8rem;
+	background-color: red;
+	z-index: 1;
+}
+
+.timeline-box:nth-child(2n)::after{
+	content: '';
+	border-radius: 50%;
+    width: 0.8rem;
+    top: 35%;
+	height: 0.8rem;
+	right: -6.0%;
+	background-color: red;
+	position: absolute;
+}
+.tenth-standard{
+	margin-left: 50px;
+
+}
+/*education section for the school*/
+.matric{
+	font-size: x-large;
+	color: skyblue;
+	font-family: monospace;
+	text-align: center;
+	overflow-wrap: break-word;
+
+}
+.change-school{
+	font-size: 1.5rem;
+	color: blue;
+	position: absolute;
+}
+
+
+/*education section for the 12th*/
+.intermediate{
+	font-size: x-large;
+	color: skyblue;
+	font-family: monospace;
+	text-align: center;
+	overflow-wrap: break-word;
+	margin-top: 25px;
+}
+.change-intermediate{
+	font-size: 1.8rem;
+	color: blue;
+	position: absolute;
+}
+
+
+/*education section for the college*/
+.college{
+	font-size: x-large;
+	color: skyblue;
+	font-family: monospace;
+	text-align: center;
+	overflow-wrap: break-word;
+}
+.change-college{
+		font-size: 1.9rem;
+	color: blue;
+	position: absolute;
+}
+
+/*education section for the additional skills*/
+.additional-skills{
+	font-size: x-large;
+	color: skyblue;
+	font-family: monospace;
+	text-align: center;
+	overflow-wrap: break-word;
+}
+.change-skills{
+	font-size: 2.0rem;
+	color: blue;
+	position: absolute;
+}
+
+/*CONTACT INFORMATION*/
+#Contact-section{
+	width: 100%;
+	height: 90vh;
+	background-color: #FF7777;
+}
+#Contact-information{
+	font-size: 50px;
+   text-align: center;
+   color: white;
+}
+#contact-box{
+	width: 50%;
+	height:60%;
+	border: 5px solid #FFFFE0;
+	display: grid;
+	margin-right: 48%;
+}
+#contact-box p{
+	margin: 10px 0px -4px 1px; /*13 0 -7 1*/
+	font-size: 1.2rem;
+	font-family: sans-serif;
+	color: whitesmoke;
+}
+#submit-button p{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+	margin: 8px 3px 2px -1px;
+}
+aside{
+	width: 45%;
+    /* height: 37%; */
+    background-color: burlywood;
+    margin: -31% -40% 0 10%;
+	/* position: fixed; */
+}
+aside p{
+	font-family: monospace;
+	font-size: x-large;
+	color: white;
+}

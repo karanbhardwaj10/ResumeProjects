@@ -1,0 +1,2 @@
+hello today we will learn git
+lets run some git commands
