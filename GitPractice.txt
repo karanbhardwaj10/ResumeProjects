@@ -1,3 +1,4 @@
 hello today we will learn git
 lets run some git commands
 currently we are learning commit
+now we've shifted our focous to github and its implementation
