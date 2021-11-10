@@ -1,0 +1,2 @@
+we're learning git ammend command today
+and we're gonna do a small experiment
