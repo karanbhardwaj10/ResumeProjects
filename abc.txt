@@ -1,4 +1,0 @@
-we're learning git ammend command today
-and we're gonna do a small experiment
-we'll test alias feature
-how are you i dont know what i am doing with the branch thingi
